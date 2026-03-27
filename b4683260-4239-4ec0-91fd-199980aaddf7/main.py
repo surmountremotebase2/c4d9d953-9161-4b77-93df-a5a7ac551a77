@@ -1,4 +1,3 @@
-```python
 from surmount.base_class import Strategy, TargetAllocation
 from surmount.logging import log
 from surmount.technical_indicators import RSI, EMA
@@ -80,4 +79,3 @@ class TradingStrategy(Strategy):
             log("Ether traversal stagnant. Holding fiat, waiting for the next repeater pulse.")
 
         return TargetAllocation(allocation)
-```
